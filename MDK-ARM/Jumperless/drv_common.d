@@ -45,6 +45,8 @@ jumperless/drv_common.o: ..\rt_thread\board\drv_common.c \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_i2c_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr_ex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_spi.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_spi_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_tim.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_tim_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart.h \
@@ -67,11 +69,13 @@ jumperless/drv_common.o: ..\rt_thread\board\drv_common.c \
   ..\rt_thread\components\drivers\include\ipc\pipe.h \
   ..\rt_thread\components\drivers\include\ipc\poll.h \
   ..\rt_thread\components\drivers\include\ipc\ringblk_buf.h \
+  ..\rt_thread\components\drivers\include\drivers\spi.h \
+  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  ..\rt_thread\components\drivers\include\drivers\pin.h \
   ..\rt_thread\components\drivers\include\drivers\serial_v2.h \
   ..\rt_thread\components\drivers\include\drivers\i2c.h \
   ..\rt_thread\components\drivers\include\drivers\i2c_dev.h \
   ..\rt_thread\components\drivers\include\drivers\i2c-bit-ops.h \
-  ..\rt_thread\components\drivers\include\drivers\pin.h \
   ..\Core\Inc\main.h ..\rt_thread\board\drivers\drv_usart_v2.h \
   ..\rt_thread\board\drivers\drv_dma.h \
   ..\rt_thread\board\drivers\drv_config.h \

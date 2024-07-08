@@ -21,6 +21,7 @@
                 "f:\\Documents\\Jumperless\\CH446Q\\Inc",
                 "f:\\Documents\\Jumperless\\INA219\\Inc",
                 "f:\\Documents\\Jumperless\\WS2812\\Inc",
+                "f:\\Documents\\Jumperless\\ST7789\\Inc",
                 "f:\\Documents\\Jumperless\\MDK-ARM",
                 "f:\\Documents\\Jumperless\\Core\\Src",
                 "f:\\Documents\\Jumperless\\rt_thread\\board\\MXConfig\\Core\\Src",
@@ -32,9 +33,11 @@
                 "f:\\Documents\\Jumperless\\rt_thread\\components\\drivers\\serial",
                 "f:\\Documents\\Jumperless\\rt_thread\\components\\drivers\\ipc",
                 "f:\\Documents\\Jumperless\\rt_thread\\components\\drivers\\i2c",
+                "f:\\Documents\\Jumperless\\rt_thread\\components\\drivers\\spi",
                 "f:\\Documents\\Jumperless\\CH446Q\\Src",
                 "f:\\Documents\\Jumperless\\INA219\\Src",
-                "f:\\Documents\\Jumperless\\WS2812\\Src"
+                "f:\\Documents\\Jumperless\\WS2812\\Src",
+                "f:\\Documents\\Jumperless\\ST7789\\Src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
