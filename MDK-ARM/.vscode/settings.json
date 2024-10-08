@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "ch446q.h": "c",
-        "lcd.h": "c"
+        "lcd.h": "c",
+        "netmanager.h": "c"
     }
 }

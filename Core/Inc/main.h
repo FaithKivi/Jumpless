@@ -46,7 +46,20 @@ extern "C" {
 
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
-
+	typedef struct OSC_subattribute{
+		unsigned int Freq;
+		uint32_t Vpp;
+		uint8_t gears[6]; // 衰减电路对应倍数
+		float Sca_factor[6]; //比例因数
+		float   offset[6]; //偏移量
+	}OSC_sub;
+	
+	typedef struct OSC1
+	{
+		OSC_sub waveform1;
+		OSC_sub waveform2;
+	}OSC_;
+		extern OSC_ OSC;
 /* USER CODE END EM */
 void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 /* Exported functions prototypes ---------------------------------------------*/

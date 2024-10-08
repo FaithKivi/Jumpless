@@ -9,7 +9,7 @@ LR_IROM1 0x08000000 0x001E0000  {    ; load region size_region
    .ANY (+RO)
    .ANY (+XO)
   }
-  RW_IRAM1 0x24000000 0x00080000  {  ; DTCM 128K
+  RW_IRAM1 0x24000000 0x00080000  {
    .ANY (+RW +ZI)
   }
 }

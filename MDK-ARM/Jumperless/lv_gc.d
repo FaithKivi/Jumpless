@@ -1,12 +1,11 @@
 jumperless/lv_gc.o: ..\lvgl\src\misc\lv_gc.c ..\lvgl\src\misc\lv_gc.h \
   ..\lvgl\src\misc\..\lv_conf_internal.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdint.h \
   ..\lvgl\src\lv_conf_kconfig.h ..\lvgl\lv_conf.h \
-  ..\lvgl\src\misc\lv_mem.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  ..\lvgl\src\misc\lv_mem.h D:\keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\lvgl\src\misc\lv_types.h ..\lvgl\src\misc\lv_ll.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   ..\lvgl\src\misc\lv_timer.h ..\lvgl\src\misc\..\hal\lv_hal_tick.h \
   ..\lvgl\src\misc\..\hal\..\lv_conf_internal.h \
   ..\lvgl\src\misc\..\draw\lv_img_cache.h \

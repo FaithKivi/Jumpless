@@ -62,7 +62,6 @@ void SysTick_Handler(void)
 {
     /* enter interrupt */
     rt_interrupt_enter();
-
     if (SysTick->CTRL & SysTick_CTRL_COUNTFLAG_Msk)
         HAL_IncTick();
 
@@ -213,8 +212,15 @@ rt_weak void rt_hw_board_init(void)
 #endif
 
 		MX_DMA_Init();
-    MX_TIM1_Init();
-
+		MX_ADC1_Init();
+		MX_ADC2_Init();
+		MX_DAC1_Init();
+		MX_LPTIM1_Init();
+		MX_LPTIM2_Init();
+		MX_TIM1_Init();
+		MX_TIM2_Init();
+		MX_TIM6_Init();
+		
 #ifdef RT_USING_COMPONENTS_INIT
     /* Board underlying hardware initialization */
     rt_components_board_init();

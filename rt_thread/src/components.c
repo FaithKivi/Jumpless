@@ -276,8 +276,9 @@ int rtthread_startup(void)
 
     /* start scheduler */
     rt_system_scheduler_start();
-
+		rt_hw_us_delay(10);
     /* never reach here */
+		
     return 0;
 }
 #endif /* RT_USING_USER_MAIN */

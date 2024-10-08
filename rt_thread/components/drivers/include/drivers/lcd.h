@@ -11,6 +11,10 @@
 #ifndef RT_LCD_H__
 #define RT_LCD_H__
 
+#include <rtthread.h>
+#include <rtdevice.h>
+#include <board.h>
+
 /* ioctls
    0x46 is 'F'                                                          */
 

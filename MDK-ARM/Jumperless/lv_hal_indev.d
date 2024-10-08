@@ -1,15 +1,15 @@
 jumperless/lv_hal_indev.o: ..\lvgl\src\hal\lv_hal_indev.c \
   ..\lvgl\src\hal\..\misc\lv_assert.h \
   ..\lvgl\src\hal\..\misc\..\lv_conf_internal.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdint.h \
   ..\lvgl\src\lv_conf_kconfig.h ..\lvgl\lv_conf.h \
   ..\lvgl\src\hal\..\misc\lv_log.h ..\lvgl\src\hal\..\misc\lv_types.h \
   ..\lvgl\src\hal\..\misc\lv_mem.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\lvgl\src\hal\..\hal\lv_hal_indev.h \
   ..\lvgl\src\hal\..\lv_conf_internal.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   ..\lvgl\src\hal\..\misc\lv_area.h ..\lvgl\src\hal\..\misc\lv_timer.h \
   ..\lvgl\src\hal\..\misc\..\hal\lv_hal_tick.h \
   ..\lvgl\src\hal\..\core\lv_indev.h ..\lvgl\src\hal\..\core\lv_obj.h \
@@ -21,9 +21,9 @@ jumperless/lv_hal_indev.o: ..\lvgl\src\hal\lv_hal_indev.c \
   ..\lvgl\src\hal\..\misc\..\font\..\misc\lv_area.h \
   ..\lvgl\src\hal\..\misc\lv_color.h ..\lvgl\src\hal\..\misc\lv_math.h \
   ..\lvgl\src\hal\..\misc\lv_anim.h ..\lvgl\src\hal\..\misc\lv_txt.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdarg.h \
   ..\lvgl\src\hal\..\misc\lv_printf.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\inttypes.h \
   ..\lvgl\src\hal\..\misc\lv_bidi.h \
   ..\lvgl\src\hal\..\misc\lv_style_gen.h \
   ..\lvgl\src\hal\..\core\..\misc\lv_types.h \

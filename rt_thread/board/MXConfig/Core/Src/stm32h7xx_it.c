@@ -55,7 +55,12 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
+extern DMA_HandleTypeDef hdma_adc1;
+extern DMA_HandleTypeDef hdma_dac1_ch2;
+extern LPTIM_HandleTypeDef hlptim1;
+extern LPTIM_HandleTypeDef hlptim2;
 extern DMA_HandleTypeDef hdma_tim1_ch1;
+extern TIM_HandleTypeDef htim2;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -77,6 +82,7 @@ void NMI_Handler(void)
   }
   /* USER CODE END NonMaskableInt_IRQn 1 */
 }
+
 /**
   * @brief This function handles Pre-fetch fault, memory access fault.
   */
@@ -133,6 +139,7 @@ void DebugMon_Handler(void)
   /* USER CODE END DebugMonitor_IRQn 1 */
 }
 
+
 /******************************************************************************/
 /* STM32H7xx Peripheral Interrupt Handlers                                    */
 /* Add here the Interrupt Handlers for the used peripherals.                  */
@@ -152,6 +159,76 @@ void DMA1_Stream0_IRQHandler(void)
   /* USER CODE BEGIN DMA1_Stream0_IRQn 1 */
 
   /* USER CODE END DMA1_Stream0_IRQn 1 */
+}
+
+/**
+  * @brief This function handles DMA1 stream1 global interrupt.
+  */
+void DMA1_Stream1_IRQHandler(void)
+{
+  /* USER CODE BEGIN DMA1_Stream1_IRQn 0 */
+
+  /* USER CODE END DMA1_Stream1_IRQn 0 */
+  HAL_DMA_IRQHandler(&hdma_dac1_ch2);
+  /* USER CODE BEGIN DMA1_Stream1_IRQn 1 */
+
+  /* USER CODE END DMA1_Stream1_IRQn 1 */
+}
+
+/**
+  * @brief This function handles DMA1 stream3 global interrupt.
+  */
+void DMA1_Stream3_IRQHandler(void)
+{
+  /* USER CODE BEGIN DMA1_Stream3_IRQn 0 */
+
+  /* USER CODE END DMA1_Stream3_IRQn 0 */
+  HAL_DMA_IRQHandler(&hdma_adc1);
+  /* USER CODE BEGIN DMA1_Stream3_IRQn 1 */
+
+  /* USER CODE END DMA1_Stream3_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM2 global interrupt.
+  */
+void TIM2_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM2_IRQn 0 */
+
+  /* USER CODE END TIM2_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim2);
+  /* USER CODE BEGIN TIM2_IRQn 1 */
+
+  /* USER CODE END TIM2_IRQn 1 */
+}
+
+/**
+  * @brief This function handles LPTIM1 global interrupt.
+  */
+void LPTIM1_IRQHandler(void)
+{
+  /* USER CODE BEGIN LPTIM1_IRQn 0 */
+
+  /* USER CODE END LPTIM1_IRQn 0 */
+  HAL_LPTIM_IRQHandler(&hlptim1);
+  /* USER CODE BEGIN LPTIM1_IRQn 1 */
+
+  /* USER CODE END LPTIM1_IRQn 1 */
+}
+
+/**
+  * @brief This function handles LPTIM2 global interrupt.
+  */
+void LPTIM2_IRQHandler(void)
+{
+  /* USER CODE BEGIN LPTIM2_IRQn 0 */
+
+  /* USER CODE END LPTIM2_IRQn 0 */
+  HAL_LPTIM_IRQHandler(&hlptim2);
+  /* USER CODE BEGIN LPTIM2_IRQn 1 */
+
+  /* USER CODE END LPTIM2_IRQn 1 */
 }
 
 /* USER CODE BEGIN 1 */

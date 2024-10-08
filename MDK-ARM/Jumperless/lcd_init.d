@@ -1,20 +1,19 @@
 jumperless/lcd_init.o: ..\ST7789\Src\lcd_init.c ..\ST7789\Inc\lcd_init.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h ..\lvgl\src\lvgl.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdint.h ..\lvgl\src\lvgl.h \
   ..\lvgl\src\..\lvgl.h ..\lvgl\src\misc\lv_log.h \
   ..\lvgl\src\misc\..\lv_conf_internal.h ..\lvgl\src\lv_conf_kconfig.h \
   ..\lvgl\lv_conf.h ..\lvgl\src\misc\lv_types.h \
   ..\lvgl\src\misc\lv_timer.h ..\lvgl\src\misc\..\hal\lv_hal_tick.h \
   ..\lvgl\src\misc\..\hal\..\lv_conf_internal.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   ..\lvgl\src\misc\lv_math.h ..\lvgl\src\misc\lv_mem.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\lvgl\src\misc\lv_async.h ..\lvgl\src\misc\lv_anim_timeline.h \
   ..\lvgl\src\misc\lv_anim.h ..\lvgl\src\misc\lv_printf.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
-  ..\lvgl\src\hal\lv_hal.h ..\lvgl\src\misc\..\hal\lv_hal_disp.h \
-  ..\lvgl\src\misc\..\hal\lv_hal.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdarg.h ..\lvgl\src\hal\lv_hal.h \
+  ..\lvgl\src\misc\..\hal\lv_hal_disp.h ..\lvgl\src\misc\..\hal\lv_hal.h \
   ..\lvgl\src\misc\..\hal\..\draw\lv_draw.h \
   ..\lvgl\src\misc\..\hal\..\draw\..\lv_conf_internal.h \
   ..\lvgl\src\misc\..\hal\..\draw\..\misc\lv_style.h \
@@ -190,9 +189,9 @@ jumperless/lcd_init.o: ..\ST7789\Src\lcd_init.c ..\ST7789\Inc\lcd_init.h \
   ..\rt_thread\rtconfig.h ..\rt_thread\include\rtdef.h \
   ..\rt_thread\include\rtsched.h ..\rt_thread\include\rttypes.h \
   ..\rt_thread\components\libc\compilers\common\extension\sys\types.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\time.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\time.h \
   ..\rt_thread\components\libc\compilers\common\extension\sys\errno.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\errno.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\errno.h \
   ..\rt_thread\include\rtcompiler.h ..\rt_thread\include\rtservice.h \
   ..\rt_thread\include\rtm.h ..\rt_thread\include\rtatomic.h \
   ..\rt_thread\include\rthw.h \
@@ -207,8 +206,8 @@ jumperless/lcd_init.o: ..\ST7789\Src\lcd_init.c ..\ST7789\Inc\lcd_init.h \
   ..\Drivers\CMSIS\Include\cmsis_version.h \
   ..\Drivers\CMSIS\Include\cmsis_compiler.h \
   ..\Drivers\CMSIS\Include\cmsis_armclang.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
   ..\Drivers\CMSIS\Include\mpu_armv7.h \
   ..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal.h \
@@ -216,7 +215,7 @@ jumperless/lcd_init.o: ..\ST7789\Src\lcd_init.c ..\ST7789\Inc\lcd_init.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\math.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h \
@@ -225,11 +224,17 @@ jumperless/lcd_init.o: ..\ST7789\Src\lcd_init.c ..\ST7789\Inc\lcd_init.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_mdma.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_exti.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_cortex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_adc.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_adc.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_adc_ex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_dac.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_dac_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_flash.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_flash_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_hsem.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_i2c.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_i2c_ex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_lptim.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_spi.h \
@@ -256,9 +261,11 @@ jumperless/lcd_init.o: ..\ST7789\Src\lcd_init.c ..\ST7789\Inc\lcd_init.h \
   ..\rt_thread\components\drivers\include\ipc\poll.h \
   ..\rt_thread\components\drivers\include\ipc\ringblk_buf.h \
   ..\rt_thread\components\drivers\include\drivers\spi.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   ..\rt_thread\components\drivers\include\drivers\pin.h \
   ..\rt_thread\components\drivers\include\drivers\serial_v2.h \
   ..\rt_thread\components\drivers\include\drivers\i2c.h \
   ..\rt_thread\components\drivers\include\drivers\i2c_dev.h \
-  ..\rt_thread\components\drivers\include\drivers\i2c-bit-ops.h
+  ..\rt_thread\components\drivers\include\drivers\i2c-bit-ops.h \
+  ..\rt_thread\components\drivers\include\drivers\pin.h \
+  ..\..\Jumperless\pic1.h

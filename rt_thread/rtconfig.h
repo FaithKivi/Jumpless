@@ -47,7 +47,7 @@
 #define RT_USING_DEVICE
 #define RT_USING_CONSOLE
 #define RT_CONSOLEBUF_SIZE 128
-#define RT_CONSOLE_DEVICE_NAME "uart1"
+#define RT_CONSOLE_DEVICE_NAME "uart4"
 #define RT_VER_NUM 0x50200
 #define RT_BACKTRACE_LEVEL_MAX_NR 32
 #define RT_USING_CACHE
@@ -109,7 +109,9 @@
 //#define RT_SERIAL_USING_DMA
 //#define RT_USING_PWM
 //#define RT_USING_MTD_NOR
-//#define RT_USING_SPI
+#define RT_USING_SPI
+#define BSP_USING_SPI
+#define BSP_USING_SPI3
 //#define RT_USING_QSPI
 //#define RT_USING_SFUD
 //#define RT_SFUD_USING_SFDP

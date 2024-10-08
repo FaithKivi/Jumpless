@@ -1,10 +1,10 @@
 jumperless/lv_refr.o: ..\lvgl\src\core\lv_refr.c \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
   ..\lvgl\src\core\lv_refr.h ..\lvgl\src\core\lv_obj.h \
   ..\lvgl\src\core\..\lv_conf_internal.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdint.h \
   ..\lvgl\src\lv_conf_kconfig.h ..\lvgl\lv_conf.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   ..\lvgl\src\core\..\misc\lv_style.h \
   ..\lvgl\src\core\..\misc\..\font\lv_font.h \
   ..\lvgl\src\core\..\misc\..\font\..\lv_conf_internal.h \
@@ -14,12 +14,12 @@ jumperless/lv_refr.o: ..\lvgl\src\core\lv_refr.c \
   ..\lvgl\src\core\..\misc\lv_color.h \
   ..\lvgl\src\core\..\misc\lv_assert.h ..\lvgl\src\core\..\misc\lv_log.h \
   ..\lvgl\src\core\..\misc\lv_types.h ..\lvgl\src\core\..\misc\lv_mem.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\lvgl\src\core\..\misc\lv_math.h ..\lvgl\src\core\..\misc\lv_area.h \
   ..\lvgl\src\core\..\misc\lv_anim.h ..\lvgl\src\core\..\misc\lv_txt.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdarg.h \
   ..\lvgl\src\core\..\misc\lv_printf.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\inttypes.h \
   ..\lvgl\src\core\..\misc\lv_bidi.h \
   ..\lvgl\src\core\..\misc\lv_style_gen.h \
   ..\lvgl\src\core\..\hal\lv_hal.h ..\lvgl\src\core\..\hal\lv_hal_disp.h \

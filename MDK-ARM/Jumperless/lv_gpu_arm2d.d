@@ -2,17 +2,17 @@ jumperless/lv_gpu_arm2d.o: ..\lvgl\src\draw\arm2d\lv_gpu_arm2d.c \
   ..\lvgl\src\draw\arm2d\lv_gpu_arm2d.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_color.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\..\lv_conf_internal.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdint.h \
   ..\lvgl\src\lv_conf_kconfig.h ..\lvgl\lv_conf.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_assert.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_log.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_types.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_mem.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_math.h \
   ..\lvgl\src\draw\arm2d\..\..\hal\lv_hal_disp.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   ..\lvgl\src\draw\arm2d\..\..\hal\lv_hal.h \
   ..\lvgl\src\draw\arm2d\..\..\hal\lv_hal_indev.h \
   ..\lvgl\src\draw\arm2d\..\..\hal\..\lv_conf_internal.h \
@@ -30,9 +30,9 @@ jumperless/lv_gpu_arm2d.o: ..\lvgl\src\draw\arm2d\lv_gpu_arm2d.c \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_area.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_anim.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_txt.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdarg.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_printf.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\inttypes.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_bidi.h \
   ..\lvgl\src\draw\arm2d\..\..\misc\lv_style_gen.h \
   ..\lvgl\src\draw\arm2d\..\..\hal\..\draw\..\misc\lv_txt.h \

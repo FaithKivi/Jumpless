@@ -1,14 +1,14 @@
 jumperless/lv_group.o: ..\lvgl\src\core\lv_group.c \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
   ..\lvgl\src\core\lv_group.h ..\lvgl\src\core\..\lv_conf_internal.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdint.h \
   ..\lvgl\src\lv_conf_kconfig.h ..\lvgl\lv_conf.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   ..\lvgl\src\core\..\misc\lv_ll.h ..\lvgl\src\core\..\misc\lv_types.h \
   ..\lvgl\src\core\..\misc\lv_gc.h \
   ..\lvgl\src\core\..\misc\..\lv_conf_internal.h \
   ..\lvgl\src\core\..\misc\lv_mem.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\lvgl\src\core\..\misc\lv_timer.h \
   ..\lvgl\src\core\..\misc\..\hal\lv_hal_tick.h \
   ..\lvgl\src\core\..\misc\..\hal\..\lv_conf_internal.h \
@@ -33,9 +33,9 @@ jumperless/lv_group.o: ..\lvgl\src\core\lv_group.c \
   ..\lvgl\src\core\..\misc\..\font\..\misc\lv_area.h \
   ..\lvgl\src\core\..\misc\lv_color.h ..\lvgl\src\core\..\misc\lv_anim.h \
   ..\lvgl\src\core\..\misc\lv_txt.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdarg.h \
   ..\lvgl\src\core\..\misc\lv_printf.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\inttypes.h \
   ..\lvgl\src\core\..\misc\lv_bidi.h \
   ..\lvgl\src\core\..\misc\lv_style_gen.h \
   ..\lvgl\src\core\..\hal\lv_hal.h \

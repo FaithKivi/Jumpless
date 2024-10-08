@@ -1,6 +1,6 @@
 jumperless/lv_font_loader.o: ..\lvgl\src\font\lv_font_loader.c \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   ..\lvgl\src\font\..\lvgl.h ..\lvgl\src\..\lvgl.h \
   ..\lvgl\src\misc\lv_log.h ..\lvgl\src\misc\..\lv_conf_internal.h \
   ..\lvgl\src\lv_conf_kconfig.h ..\lvgl\lv_conf.h \
@@ -8,14 +8,13 @@ jumperless/lv_font_loader.o: ..\lvgl\src\font\lv_font_loader.c \
   ..\lvgl\src\misc\..\hal\lv_hal_tick.h \
   ..\lvgl\src\misc\..\hal\..\lv_conf_internal.h \
   ..\lvgl\src\misc\lv_math.h ..\lvgl\src\misc\lv_mem.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\lvgl\src\misc\lv_async.h ..\lvgl\src\misc\lv_anim_timeline.h \
   ..\lvgl\src\misc\lv_anim.h ..\lvgl\src\misc\lv_printf.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
-  ..\lvgl\src\hal\lv_hal.h ..\lvgl\src\misc\..\hal\lv_hal_disp.h \
-  ..\lvgl\src\misc\..\hal\lv_hal.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdarg.h ..\lvgl\src\hal\lv_hal.h \
+  ..\lvgl\src\misc\..\hal\lv_hal_disp.h ..\lvgl\src\misc\..\hal\lv_hal.h \
   ..\lvgl\src\misc\..\hal\..\draw\lv_draw.h \
   ..\lvgl\src\misc\..\hal\..\draw\..\lv_conf_internal.h \
   ..\lvgl\src\misc\..\hal\..\draw\..\misc\lv_style.h \

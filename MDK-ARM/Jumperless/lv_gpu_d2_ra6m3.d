@@ -2,19 +2,19 @@ jumperless/lv_gpu_d2_ra6m3.o: ..\lvgl\src\draw\renesas\lv_gpu_d2_ra6m3.c \
   ..\lvgl\src\draw\renesas\lv_gpu_d2_ra6m3.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_color.h \
   ..\lvgl\src\draw\renesas\..\..\misc\..\lv_conf_internal.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdint.h \
   ..\lvgl\src\lv_conf_kconfig.h ..\lvgl\lv_conf.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_assert.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_log.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_types.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_mem.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_math.h \
   ..\lvgl\src\draw\renesas\..\..\core\lv_refr.h \
   ..\lvgl\src\draw\renesas\..\..\core\lv_obj.h \
   ..\lvgl\src\draw\renesas\..\..\core\..\lv_conf_internal.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   ..\lvgl\src\draw\renesas\..\..\core\..\misc\lv_style.h \
   ..\lvgl\src\draw\renesas\..\..\misc\..\font\lv_font.h \
   ..\lvgl\src\draw\renesas\..\..\misc\..\font\..\lv_conf_internal.h \
@@ -23,9 +23,9 @@ jumperless/lv_gpu_d2_ra6m3.o: ..\lvgl\src\draw\renesas\lv_gpu_d2_ra6m3.c \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_area.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_anim.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_txt.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\stdarg.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_printf.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  D:\keil\ARM\ARMCLANG\Bin\..\include\inttypes.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_bidi.h \
   ..\lvgl\src\draw\renesas\..\..\misc\lv_style_gen.h \
   ..\lvgl\src\draw\renesas\..\..\core\..\misc\lv_types.h \
@@ -82,4 +82,4 @@ jumperless/lv_gpu_d2_ra6m3.o: ..\lvgl\src\draw\renesas\lv_gpu_d2_ra6m3.c \
   ..\lvgl\src\draw\renesas\..\..\core\lv_event.h \
   ..\lvgl\src\draw\renesas\..\..\core\lv_group.h \
   ..\lvgl\src\draw\renesas\..\..\core\..\misc\lv_ll.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h
+  D:\keil\ARM\ARMCLANG\Bin\..\include\math.h

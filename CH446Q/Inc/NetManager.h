@@ -8,6 +8,7 @@
 #include "CH446Q.h"
 #include "stdbool.h"
 #include "stdio.h"
+#include "2812_driver.h"
 
 #define NET_ERROR -1
 #define NET_OK 1
@@ -133,6 +134,8 @@ struct pathStruct{
   int x[6];
   int y[6];
   int candidates[3][3]; //[node][candidate]
+
+  int skip;
 };
 
 struct netStruct{ 
@@ -145,17 +148,9 @@ int8_t specialFunction; // store #defined number for that special function -1 fo
 
 uint8_t intersections[8]; //if this net shares a node with another net, store this here. If it's a regular net, we'll need a function to just merge them into one new net. special functions can intersect though (except Power and Ground), 0x7f is a reserved empty net that nothing and intersect
 
-int8_t doNotIntersectNodes[8]; //if the net tries to share a node with a net that contains any #defined nodes here, it won't connect and throw an error (SUPPLY to GND)
+int8_t doNotIntersectNets[8]; //if the net tries to share a node with a net that contains any #defined nodes here, it won't connect and throw an error (SUPPLY to GND)
 
 uint8_t occupied; //this isn't implemented - priority = 1 means it will move connections to take the most direct path, priority = 2 means connections will be doubled up when possible, priority = 3 means both
-
-rgbColor color; //color of the net in hex
-
-uint32_t rawColor; //color of the net in hex (for the machine)
-
-char *colorName; //name of the color
-
-bool machine; //whether this net was created by the machine or by the user
 };
 
 struct chipStatus{
@@ -177,6 +172,7 @@ const int8_t yMap[8];
 void clearAllConnections();
 void initPath();
 void printAllPaths();
+int checkDoNotIntersect(int net1,int net2);
 int addPath(int node1,int node2);
 int removePath(int node1,int node2);
 void combineNets(int net1,int net2);
@@ -184,5 +180,6 @@ void assignNets();
 void findStartAndEndChips(int node1, int node2, int pathIdx);
 void bridgesToPaths();
 void sendAllPaths();
+void setLedColors();
 
 #endif

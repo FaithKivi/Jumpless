@@ -73,9 +73,17 @@ extern "C" {
  *                 such as     #define BSP_UART1_RX_USING_DMA
  *
  */
-
+#define BSP_USING_UART1
+#define UART1_TX_PORT       GPIOA
+#define UART1_RX_PORT       GPIOA
+#define UART1_TX_PIN        GPIO_PIN_9
+#define UART1_RX_PIN        GPIO_PIN_10
 #define BSP_UART1_RX_BUFSIZE   256
 #define BSP_UART1_TX_BUFSIZE   256
+
+#define BSP_USING_UART4
+#define BSP_UART4_RX_BUFSIZE   256
+#define BSP_UART4_TX_BUFSIZE   256
 
 #define STM32_FLASH_START_ADRESS       ROM_START
 #define STM32_FLASH_SIZE               ROM_SIZE
@@ -85,6 +93,12 @@ extern "C" {
 #define STM32_SRAM_START               RAM_START
 #define STM32_SRAM_END                 RAM_END
 
+#if defined(BSP_USING_UART4)
+#define UART4_TX_PORT       GPIOA
+#define UART4_RX_PORT       GPIOA
+#define UART4_TX_PIN        GPIO_PIN_12
+#define UART4_RX_PIN        GPIO_PIN_11
+#endif
 #if defined(__ARMCC_VERSION)
 extern int Image$$RW_IRAM1$$ZI$$Limit;
 #define HEAP_BEGIN      (&Image$$RW_IRAM1$$ZI$$Limit)
@@ -98,10 +112,17 @@ extern int __bss_end;
 
 #define HEAP_END        STM32_SRAM_END
 
+
 void SystemClock_Config(void);
 void MX_DMA_Init(void);
 void MX_TIM1_Init(void);
-
+void MX_ADC1_Init(void);
+void MX_ADC2_Init(void);
+void MX_DAC1_Init(void);
+void MX_TIM2_Init(void);
+void MX_TIM6_Init(void);
+void MX_LPTIM1_Init(void);
+void MX_LPTIM2_Init(void);
 #ifdef __cplusplus
 }
 #endif
